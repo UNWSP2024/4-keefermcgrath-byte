@@ -24,9 +24,9 @@ def main():
 
     # Display results
     if difference > 0:
-        print("You are under budget by $", format(difference, ".2f"))
+        print("You are under budget by $" + format(difference, ".2f"))
     elif difference < 0:
-        print("You are over budget by $", format(abs(difference), ".2f"))
+        print("You are over budget by $" + format(abs(difference), ".2f"))
     else:
         print("You spent exactly your budget.")
 
